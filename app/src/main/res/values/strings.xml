@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjectShaco</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="BackingUpDB">BackUp Database</string>
+    <string name="WordsFlashCard">Words FlashCard</string>
+    <string name="ImportDB">Import DataBase</string>
+    <string name="Start">Start</string>
+    <string name="JumbleWord">Jumble Word</string>
+    <string name="StartToEnd">Start To End</string>
+    <string name="EndToStart">End To Start</string>
+    <string name="Spaced_repetition">Spaced repetition</string>
+    <string name="Saved_word">Saved word</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
