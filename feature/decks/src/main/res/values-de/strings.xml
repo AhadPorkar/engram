@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="decks_title">Engram</string>
+    <string name="today_title">Heute</string>
+    <plurals name="streak_days">
+        <item quantity="one">%d Tag in Folge</item>
+        <item quantity="other">%d Tage in Folge</item>
+    </plurals>
+    <plurals name="start_session">
+        <item quantity="one">%d Karte lernen</item>
+        <item quantity="other">%d Karten lernen</item>
+    </plurals>
+    <string name="nothing_due">Alles erledigt. Komm später wieder oder füge neue Wörter hinzu.</string>
+    <string name="statistics">Statistik</string>
+    <string name="settings">Einstellungen</string>
+    <string name="new_deck">Neues Deck</string>
+    <string name="edit_deck">Deck bearbeiten</string>
+    <string name="deck_name">Name</string>
+    <string name="deck_description">Beschreibung</string>
+    <string name="deck_front_language">Sprache der Wörter</string>
+    <string name="deck_back_language">Sprache der Bedeutungen</string>
+    <string name="deck_new_per_day">Neue Wörter pro Tag: %d</string>
+    <string name="deck_reviews_per_day">Maximale Wiederholungen pro Tag: %d</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="back">Zurück</string>
+    <string name="more_options">Weitere Optionen</string>
+    <string name="empty_decks_title">Noch keine Decks</string>
+    <string name="empty_decks_message">Erstelle ein Deck oder importiere eine Wortliste in den Einstellungen.</string>
+    <plurals name="word_count">
+        <item quantity="one">%d Wort</item>
+        <item quantity="other">%d Wörter</item>
+    </plurals>
+    <string name="study_smart">Lernen &amp; wiederholen</string>
+    <string name="study_flashcards">Karteikarten</string>
+    <string name="study_practice">Üben</string>
+    <string name="practice_title">Üben ohne Planung</string>
+    <string name="practice_message">Übe Wörter in beliebiger Reihenfolge. Dein Wiederholungsplan bleibt unverändert.</string>
+    <string name="cram_shuffle">Gemischt</string>
+    <string name="cram_oldest">Älteste zuerst</string>
+    <string name="cram_newest">Neueste zuerst</string>
+    <string name="cram_starred">Nur markierte Wörter</string>
+    <string name="cram_weakest">Schwächste zuerst</string>
+    <string name="search_words">Wörter suchen</string>
+    <string name="clear_search">Suche löschen</string>
+    <string name="filter_starred">Markiert</string>
+    <string name="add_word">Wort hinzufügen</string>
+    <string name="import_words">CSV-/Anki-Liste importieren</string>
+    <string name="delete_deck">Deck löschen</string>
+    <string name="delete_deck_confirm">„%s“ mit allen Wörtern und dem Lernfortschritt löschen? Das kann nicht rückgängig gemacht werden.</string>
+    <string name="no_words_title">Noch keine Wörter</string>
+    <string name="no_words_message">Füge dein erstes Wort hinzu oder importiere eine Liste über das Menü.</string>
+    <string name="no_match">Keine Wörter passen zu deiner Suche.</string>
+    <string name="word_new">Neu</string>
+    <string name="word_leech">Problemwort</string>
+    <string name="recall_now">%s Erinnerung jetzt</string>
+    <string name="star_word">Wort markieren</string>
+    <string name="unstar_word">Markierung entfernen</string>
+    <plurals name="import_done">
+        <item quantity="one">%d Wort importiert</item>
+        <item quantity="other">%d Wörter importiert</item>
+    </plurals>
+</resources>

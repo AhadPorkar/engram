@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_word_title">Add word</string>
+    <string name="edit_word_title">Edit word</string>
+    <string name="close">Close</string>
+    <string name="field_front">Word or phrase</string>
+    <string name="field_front_hint">Include the article for nouns, e.g. “der Hund”.</string>
+    <string name="field_back">Meaning</string>
+    <string name="field_back_hint">Separate alternatives with “;”, e.g. “to go; to walk”.</string>
+    <string name="field_synonyms">Synonyms</string>
+    <string name="field_example">Example sentence</string>
+    <string name="field_example_hint">Use the word itself; it enables fill-in-the-gap exercises.</string>
+    <string name="field_mnemonic">Memory hook</string>
+    <string name="field_mnemonic_hint">An image, story or sound-alike. Personal hooks are remembered best.</string>
+    <string name="field_tags">Tags (separated by spaces)</string>
+    <string name="create_reverse">Also practise the reverse</string>
+    <string name="create_reverse_hint">Meaning → word builds active vocabulary.</string>
+    <string name="duplicate_warning">This word is already in the deck.</string>
+    <string name="pronounce">Pronounce</string>
+    <string name="save">Save</string>
+    <string name="save_and_add">Save &amp; next</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_word">Delete word</string>
+    <string name="delete_word_confirm">Delete this word and its learning history?</string>
+    <plurals name="words_added">
+        <item quantity="one">%d word added</item>
+        <item quantity="other">%d words added</item>
+    </plurals>
+</resources>

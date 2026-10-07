@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="buttonLabel">#d3d3d3</color>
-    <color name="red">#ffff0000</color>
-    <color name="green">#ff00ff00</color>
-    <color name="weirdgreen">#d3dbcb</color>
-    <color name="greenish">#94ff7c</color>
-    <color name="darkgrey">#abada8</color>
+    <color name="engram_petrol">#FF00687A</color>
+    <color name="engram_petrol_dark">#FF003640</color>
+    <color name="engram_amber">#FFFFB870</color>
+    <color name="splash_background">#FFF6FAFC</color>
+    <color name="launcher_background">#FF00687A</color>
 </resources>

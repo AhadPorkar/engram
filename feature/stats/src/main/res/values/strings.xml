@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stats_title">Statistics</string>
+    <string name="back">Back</string>
+    <string name="stat_streak">Day streak</string>
+    <string name="stat_longest_streak">Best: %d</string>
+    <string name="stat_today">Reviews today</string>
+    <string name="stat_minutes_today">%d min studied</string>
+    <string name="stat_retention">True retention (30 days)</string>
+    <plurals name="stat_reviews_sample">
+        <item quantity="one">from %d review</item>
+        <item quantity="other">from %d reviews</item>
+    </plurals>
+    <string name="stat_known_now">Words you know now</string>
+    <string name="stat_avg_recall">Average recall %s</string>
+    <string name="stat_known_explanation">Estimated by FSRS as the sum of your current recall probabilities.</string>
+    <string name="section_history">Reviews in the last 30 days</string>
+    <string name="section_forecast">Due in the next 30 days</string>
+    <string name="axis_30_days_ago">30 days ago</string>
+    <string name="axis_today">Today</string>
+    <string name="axis_in_30_days">In 30 days</string>
+    <string name="section_maturity">Cards by memory strength</string>
+    <string name="maturity_new">New</string>
+    <string name="maturity_learning">Learning</string>
+    <string name="maturity_young">Young (stability under 21 days)</string>
+    <string name="maturity_mature">Mature (stability 21 days or more)</string>
+    <string name="maturity_suspended">Suspended</string>
+    <string name="section_weakest">Closest to being forgotten</string>
+    <string name="section_leeches">Leeches</string>
+    <string name="leeches_explanation">Forgotten again and again. More repetition rarely helps; a memory hook or a better example usually does.</string>
+    <plurals name="lapses">
+        <item quantity="one">%d lapse</item>
+        <item quantity="other">%d lapses</item>
+    </plurals>
+    <string name="stats_empty">Study a few cards and your statistics will appear here.</string>
+</resources>

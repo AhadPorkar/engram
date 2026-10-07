@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="interval_minutes">%d Min.</string>
+    <string name="interval_hours">%d Std.</string>
+    <string name="interval_days">%d T.</string>
+    <string name="interval_months">%s Mon.</string>
+    <string name="interval_years">%s J.</string>
+    <string name="new_label">neu</string>
+    <string name="learning_label">lernen</string>
+    <string name="review_label">fällig</string>
+</resources>

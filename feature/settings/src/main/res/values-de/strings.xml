@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Einstellungen</string>
+    <string name="back">Zurück</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="reset_defaults">Auf FSRS-6-Standardwerte zurücksetzen</string>
+
+    <string name="section_memory">Gedächtnismodell (FSRS-6)</string>
+    <string name="desired_retention">Gewünschte Behaltensquote</string>
+    <string name="desired_retention_value">%d %%</string>
+    <string name="desired_retention_hint">Wie wahrscheinlich du ein Wort noch weißt, wenn es wiederkommt. 90 Prozent sind ein guter Kompromiss; höhere Werte bedeuten spürbar mehr Wiederholungen.</string>
+    <string name="learning_steps">Lernschritte</string>
+    <string name="relearning_steps">Wiederlernschritte</string>
+    <string name="steps_hint">Minuten, durch Leerzeichen getrennt, z. B. „1 10“. Leer = keine Schritte.</string>
+    <string name="maximum_interval">Maximales Intervall</string>
+    <string name="maximum_interval_value">%d Tage</string>
+    <string name="maximum_interval_hint">Obergrenze für den Abstand zwischen zwei Wiederholungen, in Tagen.</string>
+    <string name="fuzz">Intervall-Streuung</string>
+    <string name="fuzz_hint">Variiert lange Intervalle leicht, damit zusammen gelernte Wörter nicht immer zusammen wiederkommen.</string>
+    <string name="fsrs_parameters">FSRS-Parameter</string>
+    <string name="fsrs_parameters_default">FSRS-6-Standardwerte</string>
+    <string name="fsrs_parameters_custom">Persönliche Parameter</string>
+    <string name="fsrs_parameters_hint">21 (FSRS-6) oder 19 (FSRS-5) Werte einfügen, z. B. die in Anki optimierten.</string>
+    <string name="leech_threshold">Schwelle für Problemwörter</string>
+    <string name="leech_threshold_value">nach %d Mal Vergessen</string>
+    <string name="leech_threshold_hint">So oft vergessene Wörter werden als Problemwörter markiert.</string>
+    <string name="leech_action">Wenn ein Wort zum Problemwort wird</string>
+    <string name="leech_action_tag">Markieren</string>
+    <string name="leech_action_suspend">Aussetzen</string>
+
+    <string name="section_exercises">Übungen</string>
+    <string name="typing_tolerance">Tippfehler-Toleranz</string>
+    <string name="tolerance_strict">Streng</string>
+    <string name="tolerance_normal">Normal</string>
+    <string name="tolerance_lenient">Großzügig</string>
+    <string name="ignore_accents">Akzente ignorieren</string>
+    <string name="ignore_accents_hint">„schon“ für „schön“ und „strasse“ für „Straße“ akzeptieren.</string>
+    <string name="speaking_exercises">Sprechübungen</string>
+    <string name="speaking_exercises_hint">Gut bekannte Wörter laut aussprechen; geprüft per Spracherkennung.</string>
+    <string name="auto_play_audio">Aussprache automatisch abspielen</string>
+    <string name="auto_play_audio_hint">Nutzt die auf deinem Gerät installierten Sprachausgabe-Stimmen.</string>
+    <string name="create_reverse_cards">Neue Wörter in beide Richtungen üben</string>
+    <string name="create_reverse_cards_hint">Fügt eine Karte Bedeutung → Wort hinzu, für den aktiven Wortschatz.</string>
+
+    <string name="section_goals">Ziele &amp; Erinnerungen</string>
+    <string name="daily_goal">Tagesziel</string>
+    <string name="daily_goal_value">%d Antworten pro Tag</string>
+    <string name="reminder">Tägliche Erinnerung</string>
+    <string name="reminder_hint">Nur wenn Wörter warten und das Tagesziel noch nicht erreicht ist.</string>
+    <string name="reminder_time">Uhrzeit der Erinnerung</string>
+    <string name="day_start">Neuer Tag beginnt um</string>
+    <string name="day_start_hint">Späte Lerneinheiten vor dieser Uhrzeit zählen noch zum Vortag.</string>
+
+    <string name="section_appearance">Darstellung</string>
+    <string name="theme">Design</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="dynamic_color">Dynamische Farben</string>
+    <string name="dynamic_color_hint">Farben aus deinem Hintergrundbild verwenden.</string>
+
+    <string name="section_data">Deine Daten</string>
+    <string name="export_backup">Sicherung exportieren</string>
+    <string name="export_backup_hint">Alle Decks, Wörter und der Lernverlauf als JSON-Datei.</string>
+    <string name="restore_backup">Sicherung wiederherstellen</string>
+    <string name="restore_backup_hint">Aus einer Engram-JSON-Sicherung.</string>
+    <string name="restore_mode_question">Alles durch die Sicherung ersetzen oder die Decks der Sicherung zu deinen aktuellen hinzufügen?</string>
+    <string name="restore_replace">Alles ersetzen</string>
+    <string name="restore_merge">Hinzufügen</string>
+    <string name="import_word_list">Wortliste importieren</string>
+    <string name="import_word_list_hint">CSV, TSV oder Anki „Notizen als Klartext“. Erstellt ein neues Deck.</string>
+    <string name="import_legacy">ProjectShaco-Sicherung importieren</string>
+    <string name="import_legacy_hint">Die Datei „word_database“ aus dem Menü „BackUp Database“ der App von 2019.</string>
+    <string name="imported_deck_name">Importierte Wörter</string>
+    <string name="legacy_deck_name">ProjectShaco-Wörter</string>
+
+    <string name="section_about">Über</string>
+    <string name="about_version">Engram %s</string>
+    <string name="about_algorithm">Planung mit FSRS-6 (open-spaced-repetition)</string>
+    <string name="about_source">Quellcode</string>
+
+    <string name="message_exported">Sicherung exportiert.</string>
+    <string name="message_restored">%1$d Decks mit %2$d Wörtern wiederhergestellt.</string>
+    <plurals name="message_imported">
+        <item quantity="one">%d Wort importiert.</item>
+        <item quantity="other">%d Wörter importiert.</item>
+    </plurals>
+    <string name="message_invalid_parameters">Bitte 21 (oder 19) durch Kommas getrennte Zahlen eingeben.</string>
+</resources>

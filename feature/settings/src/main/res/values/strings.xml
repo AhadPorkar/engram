@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Settings</string>
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_defaults">Reset to FSRS-6 defaults</string>
+
+    <string name="section_memory">Memory model (FSRS-6)</string>
+    <string name="desired_retention">Desired retention</string>
+    <string name="desired_retention_value">%d %%</string>
+    <string name="desired_retention_hint">How likely you should be to remember a word when it comes back. Ninety percent is a good balance; higher means noticeably more reviews.</string>
+    <string name="learning_steps">Learning steps</string>
+    <string name="relearning_steps">Relearning steps</string>
+    <string name="steps_hint">Minutes, separated by spaces, e.g. “1 10”. Empty = no steps.</string>
+    <string name="maximum_interval">Maximum interval</string>
+    <string name="maximum_interval_value">%d days</string>
+    <string name="maximum_interval_hint">Upper limit for the time between two reviews, in days.</string>
+    <string name="fuzz">Interval fuzz</string>
+    <string name="fuzz_hint">Slightly randomises long intervals so words learned together don\'t always come back together.</string>
+    <string name="fsrs_parameters">FSRS parameters</string>
+    <string name="fsrs_parameters_default">FSRS-6 defaults</string>
+    <string name="fsrs_parameters_custom">Personal parameters</string>
+    <string name="fsrs_parameters_hint">Paste 21 (FSRS-6) or 19 (FSRS-5) values, for example the ones optimised in Anki.</string>
+    <string name="leech_threshold">Leech threshold</string>
+    <string name="leech_threshold_value">after %d lapses</string>
+    <string name="leech_threshold_hint">Words forgotten this often are flagged as leeches.</string>
+    <string name="leech_action">When a word becomes a leech</string>
+    <string name="leech_action_tag">Flag it</string>
+    <string name="leech_action_suspend">Suspend it</string>
+
+    <string name="section_exercises">Exercises</string>
+    <string name="typing_tolerance">Typo tolerance</string>
+    <string name="tolerance_strict">Strict</string>
+    <string name="tolerance_normal">Normal</string>
+    <string name="tolerance_lenient">Lenient</string>
+    <string name="ignore_accents">Ignore accents</string>
+    <string name="ignore_accents_hint">Accept “schon” for “schön” and “strasse” for “Straße”.</string>
+    <string name="speaking_exercises">Speaking exercises</string>
+    <string name="speaking_exercises_hint">Say well-known words out loud; checked with speech recognition.</string>
+    <string name="auto_play_audio">Play pronunciation automatically</string>
+    <string name="auto_play_audio_hint">Uses the text-to-speech voices installed on your device.</string>
+    <string name="create_reverse_cards">Practise both directions for new words</string>
+    <string name="create_reverse_cards_hint">Adds a meaning → word card to build active vocabulary.</string>
+
+    <string name="section_goals">Goals &amp; reminders</string>
+    <string name="daily_goal">Daily goal</string>
+    <string name="daily_goal_value">%d answers per day</string>
+    <string name="reminder">Daily reminder</string>
+    <string name="reminder_hint">Only sent when words are waiting and the goal is not reached yet.</string>
+    <string name="reminder_time">Reminder time</string>
+    <string name="day_start">New day starts at</string>
+    <string name="day_start_hint">Late-night sessions before this time still count for the previous day.</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color">Dynamic colours</string>
+    <string name="dynamic_color_hint">Use colours from your wallpaper.</string>
+
+    <string name="section_data">Your data</string>
+    <string name="export_backup">Export backup</string>
+    <string name="export_backup_hint">All decks, words and learning history as a JSON file.</string>
+    <string name="restore_backup">Restore backup</string>
+    <string name="restore_backup_hint">From an Engram JSON backup.</string>
+    <string name="restore_mode_question">Replace everything with the backup, or add the backup\'s decks to your current ones?</string>
+    <string name="restore_replace">Replace all</string>
+    <string name="restore_merge">Add</string>
+    <string name="import_word_list">Import word list</string>
+    <string name="import_word_list_hint">CSV, TSV or Anki “Notes in Plain Text”. Creates a new deck.</string>
+    <string name="import_legacy">Import ProjectShaco backup</string>
+    <string name="import_legacy_hint">The “word_database” file from the 2019 app\'s “BackUp Database” menu.</string>
+    <string name="imported_deck_name">Imported words</string>
+    <string name="legacy_deck_name">ProjectShaco words</string>
+
+    <string name="section_about">About</string>
+    <string name="about_version">Engram %s</string>
+    <string name="about_algorithm">Scheduling with FSRS-6 (open-spaced-repetition)</string>
+    <string name="about_source">Source code</string>
+
+    <string name="message_exported">Backup exported.</string>
+    <string name="message_restored">Restored %1$d decks with %2$d words.</string>
+    <plurals name="message_imported">
+        <item quantity="one">%d word imported.</item>
+        <item quantity="other">%d words imported.</item>
+    </plurals>
+    <string name="message_invalid_parameters">Please enter 21 (or 19) numbers separated by commas.</string>
+</resources>

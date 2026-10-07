@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stats_title">Statistik</string>
+    <string name="back">Zurück</string>
+    <string name="stat_streak">Tage in Folge</string>
+    <string name="stat_longest_streak">Rekord: %d</string>
+    <string name="stat_today">Wiederholungen heute</string>
+    <string name="stat_minutes_today">%d Min. gelernt</string>
+    <string name="stat_retention">Tatsächliche Behaltensquote (30 Tage)</string>
+    <plurals name="stat_reviews_sample">
+        <item quantity="one">aus %d Wiederholung</item>
+        <item quantity="other">aus %d Wiederholungen</item>
+    </plurals>
+    <string name="stat_known_now">Wörter, die du jetzt kannst</string>
+    <string name="stat_avg_recall">Durchschnittliche Erinnerung %s</string>
+    <string name="stat_known_explanation">Von FSRS geschätzt als Summe deiner aktuellen Erinnerungswahrscheinlichkeiten.</string>
+    <string name="section_history">Wiederholungen der letzten 30 Tage</string>
+    <string name="section_forecast">Fällig in den nächsten 30 Tagen</string>
+    <string name="axis_30_days_ago">Vor 30 Tagen</string>
+    <string name="axis_today">Heute</string>
+    <string name="axis_in_30_days">In 30 Tagen</string>
+    <string name="section_maturity">Karten nach Gedächtnisstärke</string>
+    <string name="maturity_new">Neu</string>
+    <string name="maturity_learning">In Lernschritten</string>
+    <string name="maturity_young">Jung (Stabilität unter 21 Tagen)</string>
+    <string name="maturity_mature">Gefestigt (Stabilität ab 21 Tagen)</string>
+    <string name="maturity_suspended">Ausgesetzt</string>
+    <string name="section_weakest">Kurz vor dem Vergessen</string>
+    <string name="section_leeches">Problemwörter</string>
+    <string name="leeches_explanation">Immer wieder vergessen. Mehr Wiederholung hilft selten – eine Eselsbrücke oder ein besseres Beispiel meistens schon.</string>
+    <plurals name="lapses">
+        <item quantity="one">%d Mal vergessen</item>
+        <item quantity="other">%d Mal vergessen</item>
+    </plurals>
+    <string name="stats_empty">Lerne ein paar Karten, dann erscheinen hier deine Statistiken.</string>
+</resources>

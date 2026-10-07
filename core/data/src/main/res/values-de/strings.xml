@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reminder_channel_name">Lernerinnerungen</string>
+    <string name="reminder_channel_description">Ein täglicher Hinweis, wenn Wörter auf die Wiederholung warten.</string>
+    <string name="reminder_title">Zeit für eine kurze Wiederholung</string>
+    <plurals name="reminder_title_streak">
+        <item quantity="one">Halte deine Serie von %d Tag am Leben</item>
+        <item quantity="other">Halte deine Serie von %d Tagen am Leben</item>
+    </plurals>
+    <plurals name="reminder_text_due">
+        <item quantity="one">%d Wort wartet auf dich – das dauert nur eine Minute.</item>
+        <item quantity="other">%d Wörter warten auf dich – nur ein paar Minuten.</item>
+    </plurals>
+    <string name="reminder_text_new">Lerne heute ein paar neue Wörter.</string>
+    <string name="import_error_unreadable">Die Datei konnte nicht geöffnet werden.</string>
+    <string name="import_error_not_a_backup">Das ist keine Engram-Sicherung.</string>
+    <string name="import_error_newer_version">Diese Sicherung stammt aus einer neueren Engram-Version. Bitte aktualisiere die App.</string>
+    <string name="import_error_not_project_shaco">Das ist keine ProjectShaco-Datenbank (word_table fehlt).</string>
+    <string name="import_error_no_words">Keine Wörter gefunden. Jede Zeile braucht ein Wort und eine Bedeutung.</string>
+    <string name="import_error_unknown">Import fehlgeschlagen.</string>
+</resources>

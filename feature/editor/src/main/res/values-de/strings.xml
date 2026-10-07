@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_word_title">Wort hinzufügen</string>
+    <string name="edit_word_title">Wort bearbeiten</string>
+    <string name="close">Schließen</string>
+    <string name="field_front">Wort oder Ausdruck</string>
+    <string name="field_front_hint">Bei Nomen mit Artikel, z. B. „der Hund“.</string>
+    <string name="field_back">Bedeutung</string>
+    <string name="field_back_hint">Alternativen mit „;“ trennen, z. B. „to go; to walk“.</string>
+    <string name="field_synonyms">Synonyme</string>
+    <string name="field_example">Beispielsatz</string>
+    <string name="field_example_hint">Verwende das Wort selbst – so werden Lückentext-Übungen möglich.</string>
+    <string name="field_mnemonic">Eselsbrücke</string>
+    <string name="field_mnemonic_hint">Ein Bild, eine Geschichte oder ein Klangbild. Eigene Eselsbrücken wirken am besten.</string>
+    <string name="field_tags">Tags (durch Leerzeichen getrennt)</string>
+    <string name="create_reverse">Auch umgekehrt üben</string>
+    <string name="create_reverse_hint">Bedeutung → Wort baut den aktiven Wortschatz auf.</string>
+    <string name="duplicate_warning">Dieses Wort ist bereits im Deck.</string>
+    <string name="pronounce">Aussprechen</string>
+    <string name="save">Speichern</string>
+    <string name="save_and_add">Speichern &amp; weiter</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete_word">Wort löschen</string>
+    <string name="delete_word_confirm">Dieses Wort mit seinem Lernverlauf löschen?</string>
+    <plurals name="words_added">
+        <item quantity="one">%d Wort hinzugefügt</item>
+        <item quantity="other">%d Wörter hinzugefügt</item>
+    </plurals>
+</resources>

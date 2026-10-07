@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Engram launcher foreground: two stacked word cards and a spark of recall. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-12">
+        <path
+            android:fillColor="#FF7FD3E8"
+            android:pathData="M40,30H64A6,6 0,0 1,70 36V70A6,6 0,0 1,64 76H40A6,6 0,0 1,34 70V36A6,6 0,0 1,40 30Z" />
+    </group>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,32H68A6,6 0,0 1,74 38V72A6,6 0,0 1,68 78H44A6,6 0,0 1,38 72V38A6,6 0,0 1,44 32Z" />
+    <path
+        android:strokeColor="#FF00687A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M46,60H66M46,68H59" />
+    <path
+        android:fillColor="#FFFFB870"
+        android:pathData="M58,37Q59,44 66,45Q59,46 58,53Q57,46 50,45Q57,44 58,37Z" />
+</vector>

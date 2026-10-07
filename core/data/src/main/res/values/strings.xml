@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reminder_channel_name">Study reminders</string>
+    <string name="reminder_channel_description">A daily nudge when words are waiting for review.</string>
+    <string name="reminder_title">Time for a quick review</string>
+    <plurals name="reminder_title_streak">
+        <item quantity="one">Keep your %d-day streak alive</item>
+        <item quantity="other">Keep your %d-day streak alive</item>
+    </plurals>
+    <plurals name="reminder_text_due">
+        <item quantity="one">%d word is ready to review — it takes a minute.</item>
+        <item quantity="other">%d words are ready to review — just a few minutes.</item>
+    </plurals>
+    <string name="reminder_text_new">Learn a few new words today.</string>
+    <string name="import_error_unreadable">The file could not be opened.</string>
+    <string name="import_error_not_a_backup">This is not an Engram backup file.</string>
+    <string name="import_error_newer_version">This backup was made by a newer version of Engram. Please update the app.</string>
+    <string name="import_error_not_project_shaco">This is not a ProjectShaco database (word_table is missing).</string>
+    <string name="import_error_no_words">No words were found. Each row needs a word and a meaning.</string>
+    <string name="import_error_unknown">Import failed.</string>
+</resources>

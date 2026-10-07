@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="interval_minutes">%dm</string>
+    <string name="interval_hours">%dh</string>
+    <string name="interval_days">%dd</string>
+    <string name="interval_months">%smo</string>
+    <string name="interval_years">%sy</string>
+    <string name="new_label">new</string>
+    <string name="learning_label">learn</string>
+    <string name="review_label">due</string>
+</resources>
