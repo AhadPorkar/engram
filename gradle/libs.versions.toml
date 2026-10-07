@@ -6,8 +6,8 @@ targetSdk = "36"
 
 # Build
 agp = "8.11.1"
-kotlin = "2.1.21"
-ksp = "2.1.21-2.0.1"
+kotlin = "2.4.20"
+ksp = "2.3.12"
 
 # AndroidX
 coreKtx = "1.16.0"
@@ -26,8 +26,8 @@ hilt = "2.56.2"
 hiltNavigationCompose = "1.2.0"
 
 # Kotlin libraries
-coroutines = "1.10.2"
-serialization = "1.8.1"
+coroutines = "1.11.0"
+serialization = "1.11.0"
 
 # Testing
 junit = "4.13.2"
