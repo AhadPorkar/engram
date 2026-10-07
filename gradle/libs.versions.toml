@@ -32,7 +32,7 @@ serialization = "1.8.1"
 # Testing
 junit = "4.13.2"
 turbine = "1.2.0"
-robolectric = "4.14.1"
+robolectric = "4.17"
 androidxTestCore = "1.6.1"
 androidxTestExtJunit = "1.2.1"
 
